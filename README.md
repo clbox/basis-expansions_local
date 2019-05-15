@@ -15,24 +15,12 @@ matrix or data frame of derived features
 
 ## Installation
 
-You can install this library directly from github:
+Clone this repository. Then enter the directory and run the following
 
 ```bash
-pip install git+https://github.com/madrury/basis-expansions.git
+python setup build
 ```
-
-If you would prefer to install from source, first clone this repository:
-
-```bash
-git clone https://github.com/madrury/basis-expansions.git
-```
-
-And then navigate into the cloned directory, and run `pip install`
-
-```bash
-cd basis_expansions
-pip install .
-```
+You then need to add the directory (/basis-expansions_local/build/lib) to your python path in your bashrc
 
 ## Supported Expansions
 
